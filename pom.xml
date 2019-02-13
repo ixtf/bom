@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>a82791a4b39d75caba6ee0b563b5dd07304046a4</jappVersion>
+        <jappVersion>1.6</jappVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.9.8</jacksonVersion>
         <poiVersion>4.0.1</poiVersion>
