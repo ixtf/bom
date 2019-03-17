@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>1.6</jappVersion>
+        <jappVersion>1.6.1</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.9.8</jacksonVersion>
@@ -112,7 +112,17 @@
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
             </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson</artifactId>
+                <version>3.10.1</version>
+            </dependency>
 
+            <dependency>
+                <groupId>com.github.ixtf.persistence</groupId>
+                <artifactId>core</artifactId>
+                <version>${jappPersistenceVersion}</version>
+            </dependency>
             <dependency>
                 <groupId>com.github.ixtf.persistence</groupId>
                 <artifactId>mongo</artifactId>
@@ -120,7 +130,7 @@
             </dependency>
             <dependency>
                 <groupId>com.github.ixtf.persistence</groupId>
-                <artifactId>mongo-reactive-streams</artifactId>
+                <artifactId>redis</artifactId>
                 <version>${jappPersistenceVersion}</version>
             </dependency>
             <dependency>
@@ -162,6 +172,11 @@
                 <groupId>com.github.ixtf.japp</groupId>
                 <artifactId>print</artifactId>
                 <version>${jappVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.ixtf.vertx</groupId>
+                <artifactId>jax-rs</artifactId>
+                <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.github.ixtf.japp</groupId>
