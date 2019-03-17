@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>1.6.1</jappVersion>
+        <jappVersion>1.6.2</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.9.8</jacksonVersion>
