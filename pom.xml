@@ -6,12 +6,12 @@
 
     <groupId>com.github.ixtf</groupId>
     <artifactId>bom</artifactId>
-    <version>1.1</version>
+    <version>1.4</version>
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>1.6.2</jappVersion>
+        <jappVersion>1.6.3</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.9.8</jacksonVersion>
@@ -22,7 +22,7 @@
         <guavaVersion>27.0.1-jre</guavaVersion>
         <zxingVersion>3.3.3</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
-        <vertxVersion>3.6.3</vertxVersion>
+        <vertxVersion>3.7.0</vertxVersion>
     </properties>
 
     <dependencyManagement>
