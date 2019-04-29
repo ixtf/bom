@@ -23,10 +23,21 @@
         <zxingVersion>3.3.3</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <vertxVersion>3.7.0</vertxVersion>
+        <smallryeVersion>3.7.0</smallryeVersion>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.smallrye.reactive</groupId>
+                <artifactId>smallrye-reactive-streams-operators</artifactId>
+                <version>${smallryeVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.smallrye.reactive</groupId>
+                <artifactId>smallrye-reactive-streams-vertx-execution-model</artifactId>
+                <version>${smallryeVersion}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
@@ -310,92 +321,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-hazelcast</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-unit</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-codegen</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-config-yaml</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-rx-java2</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-web</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-auth-jwt</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-mongo-client</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-redis-client</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-jdbc-client</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-rabbitmq-client</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-web-client</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-service-discovery</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-circuit-breaker</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-health-check</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-dropwizard-metrics</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-            <!--<groupId>io.vertx</groupId>-->
-            <!--<artifactId>vertx-service-proxy</artifactId>-->
-            <!--<version>${vertxVersion}</version>-->
-            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 
