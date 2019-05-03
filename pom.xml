@@ -23,20 +23,19 @@
         <zxingVersion>3.3.3</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <vertxVersion>3.7.0</vertxVersion>
-        <smallryeVersion>3.7.0</smallryeVersion>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.smallrye.reactive</groupId>
-                <artifactId>smallrye-reactive-streams-operators</artifactId>
-                <version>${smallryeVersion}</version>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>3.2.8.RELEASE</version>
             </dependency>
             <dependency>
-                <groupId>io.smallrye.reactive</groupId>
-                <artifactId>smallrye-reactive-streams-vertx-execution-model</artifactId>
-                <version>${smallryeVersion}</version>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.4.2</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
