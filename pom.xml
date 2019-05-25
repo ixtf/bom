@@ -23,7 +23,7 @@
         <zxingVersion>3.3.3</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <vertxVersion>3.7.0</vertxVersion>
-        <smallryeVersion>3.7.0</smallryeVersion>
+        <smallryeVersion>1.0.3</smallryeVersion>
     </properties>
 
     <dependencyManagement>
@@ -37,6 +37,11 @@
                 <groupId>io.smallrye.reactive</groupId>
                 <artifactId>smallrye-reactive-streams-vertx-execution-model</artifactId>
                 <version>${smallryeVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>3.2.9.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -122,6 +127,11 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.4.2</version>
             </dependency>
             <dependency>
                 <groupId>org.mongodb</groupId>
