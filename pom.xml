@@ -6,7 +6,7 @@
 
     <groupId>com.github.ixtf</groupId>
     <artifactId>bom</artifactId>
-    <version>1.5</version>
+    <version>1.6</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -314,7 +314,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>1.6.3</jappVersion>
+        <jappVersion>1.6.5</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.9.8</jacksonVersion>
