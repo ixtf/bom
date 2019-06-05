@@ -9,39 +9,12 @@
     <version>1.4</version>
     <packaging>pom</packaging>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jappVersion>1.6.3</jappVersion>
-        <jappPersistenceVersion>1.0</jappPersistenceVersion>
-        <logbackVersion>1.2.3</logbackVersion>
-        <jacksonVersion>2.9.8</jacksonVersion>
-        <luceneVersion>7.7.0</luceneVersion>
-        <poiVersion>4.0.1</poiVersion>
-        <validatorVersion>6.0.14.Final</validatorVersion>
-        <mammothVersion>1.4.0</mammothVersion>
-        <guavaVersion>27.0.1-jre</guavaVersion>
-        <zxingVersion>3.3.3</zxingVersion>
-        <guiceVersion>4.2.2</guiceVersion>
-        <vertxVersion>3.7.0</vertxVersion>
-        <smallryeVersion>1.0.3</smallryeVersion>
-    </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.smallrye.reactive</groupId>
-                <artifactId>smallrye-reactive-streams-operators</artifactId>
-                <version>${smallryeVersion}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.smallrye.reactive</groupId>
-                <artifactId>smallrye-reactive-streams-vertx-execution-model</artifactId>
-                <version>${smallryeVersion}</version>
-            </dependency>
-            <dependency>
                 <groupId>io.projectreactor</groupId>
                 <artifactId>reactor-core</artifactId>
-                <version>3.2.9.RELEASE</version>
+                <version>${reactorVersion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -66,7 +39,7 @@
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.11</version>
+                <version>1.12</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.uuid</groupId>
@@ -142,6 +115,11 @@
             <dependency>
                 <groupId>com.github.ixtf.persistence</groupId>
                 <artifactId>core</artifactId>
+                <version>${jappPersistenceVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.ixtf.persistence</groupId>
+                <artifactId>lucene</artifactId>
                 <version>${jappPersistenceVersion}</version>
             </dependency>
             <dependency>
@@ -333,6 +311,23 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jappVersion>1.6.3</jappVersion>
+        <jappPersistenceVersion>1.0</jappPersistenceVersion>
+        <logbackVersion>1.2.3</logbackVersion>
+        <jacksonVersion>2.9.8</jacksonVersion>
+        <luceneVersion>7.7.0</luceneVersion>
+        <guavaVersion>27.1-jre</guavaVersion>
+        <poiVersion>4.1.0</poiVersion>
+        <mammothVersion>1.4.0</mammothVersion>
+        <reactorVersion>3.2.8.RELEASE</reactorVersion>
+        <zxingVersion>3.3.3</zxingVersion>
+        <guiceVersion>4.2.2</guiceVersion>
+        <validatorVersion>6.0.16.Final</validatorVersion>
+        <vertxVersion>3.7.1</vertxVersion>
+    </properties>
 
     <repositories>
         <repository>
