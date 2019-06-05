@@ -6,7 +6,7 @@
 
     <groupId>com.github.ixtf</groupId>
     <artifactId>bom</artifactId>
-    <version>1.4</version>
+    <version>1.5</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -322,7 +322,7 @@
         <guavaVersion>27.1-jre</guavaVersion>
         <poiVersion>4.1.0</poiVersion>
         <mammothVersion>1.4.0</mammothVersion>
-        <reactorVersion>3.2.8.RELEASE</reactorVersion>
+        <reactorVersion>3.2.9.RELEASE</reactorVersion>
         <zxingVersion>3.3.3</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <validatorVersion>6.0.16.Final</validatorVersion>
