@@ -326,7 +326,7 @@
         <janinoVersion>3.1.0</janinoVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.10.0</jacksonVersion>
-        <luceneVersion>7.7.0</luceneVersion>
+        <luceneVersion>8.3.0</luceneVersion>
         <guavaVersion>28.1-jre</guavaVersion>
         <poiVersion>4.1.1</poiVersion>
         <mammothVersion>1.4.0</mammothVersion>
