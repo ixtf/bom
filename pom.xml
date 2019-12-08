@@ -162,11 +162,6 @@
                 <artifactId>jax-rs</artifactId>
                 <version>1.0</version>
             </dependency>
-            <dependency>
-                <groupId>com.github.ixtf.japp</groupId>
-                <artifactId>vertx</artifactId>
-                <version>${jappVersion}</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.codehaus.janino</groupId>
