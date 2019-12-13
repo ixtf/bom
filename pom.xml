@@ -316,6 +316,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>io.grpc</groupId>
+                <artifactId>grpc-bom</artifactId>
+                <version>${grpcVersion}</version>
+                <type>pom</type>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -334,7 +340,8 @@
         <zxingVersion>3.4.0</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <validatorVersion>6.0.17.Final</validatorVersion>
-        <vertxVersion>3.8.3</vertxVersion>
+        <vertxVersion>3.8.4</vertxVersion>
+        <grpcVersion>1.25.0</grpcVersion>
     </properties>
 
     <repositories>
