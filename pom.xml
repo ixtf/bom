@@ -339,7 +339,7 @@
         <reactorVersion>Dysprosium-RELEASE</reactorVersion>
         <zxingVersion>3.4.0</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
-        <validatorVersion>6.0.17.Final</validatorVersion>
+        <validatorVersion>6.1.0.Final</validatorVersion>
         <vertxVersion>3.8.4</vertxVersion>
         <grpcVersion>1.25.0</grpcVersion>
     </properties>
