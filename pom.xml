@@ -6,7 +6,7 @@
 
     <groupId>com.github.ixtf</groupId>
     <artifactId>bom</artifactId>
-    <version>1.6</version>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -343,11 +343,11 @@
         <janinoVersion>3.1.0</janinoVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.10.2.20200130</jacksonVersion>
-        <luceneVersion>8.3.0</luceneVersion>
+        <luceneVersion>8.4.1</luceneVersion>
         <guavaVersion>28.1-jre</guavaVersion>
         <poiVersion>4.1.1</poiVersion>
         <mammothVersion>1.4.0</mammothVersion>
-        <reactorVersion>Dysprosium-SR4</reactorVersion>
+        <reactorVersion>Dysprosium-SR5</reactorVersion>
         <zxingVersion>3.4.0</zxingVersion>
         <guiceVersion>4.2.2</guiceVersion>
         <validatorVersion>6.0.17.Final</validatorVersion>
