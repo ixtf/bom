@@ -17,6 +17,7 @@
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.10.3</jacksonVersion>
         <jaegerVersion>1.2.0</jaegerVersion>
+        <keycloakVersion>9.0.3</keycloakVersion>
         <luceneVersion>8.4.1</luceneVersion>
         <guavaVersion>28.1-jre</guavaVersion>
         <poiVersion>4.1.1</poiVersion>
@@ -290,6 +291,11 @@
                 <groupId>io.jaegertracing</groupId>
                 <artifactId>jaeger-client</artifactId>
                 <version>${jaegerVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-admin-client</artifactId>
+                <version>${keycloakVersion}</version>
             </dependency>
 
             <dependency>
