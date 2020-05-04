@@ -13,6 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jappVersion>1.6.5</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
+        <jappNetifiVersion>1.0.0</jappNetifiVersion>
         <janinoVersion>3.1.0</janinoVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.10.3</jacksonVersion>
@@ -37,6 +38,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>net.bytebuddy</groupId>
+                <artifactId>byte-buddy</artifactId>
+                <version>1.10.10</version>
+            </dependency>
             <dependency>
                 <groupId>io.github.classgraph</groupId>
                 <artifactId>classgraph</artifactId>
@@ -118,6 +124,11 @@
                 <version>4.12</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.github.ixtf</groupId>
+                <artifactId>micro-service-netifi</artifactId>
+                <version>${jappNetifiVersion}</version>
+            </dependency>
             <dependency>
                 <groupId>com.github.ixtf.persistence</groupId>
                 <artifactId>core</artifactId>
