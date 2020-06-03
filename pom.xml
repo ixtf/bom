@@ -18,8 +18,8 @@
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.10.3</jacksonVersion>
         <jaegerVersion>1.2.0</jaegerVersion>
-        <keycloakVersion>9.0.3</keycloakVersion>
-        <luceneVersion>8.4.1</luceneVersion>
+        <keycloakVersion>10.0.1</keycloakVersion>
+        <luceneVersion>8.5.2</luceneVersion>
         <guavaVersion>28.1-jre</guavaVersion>
         <poiVersion>4.1.1</poiVersion>
         <mammothVersion>1.4.0</mammothVersion>
