@@ -28,6 +28,7 @@
         <guiceVersion>4.2.3</guiceVersion>
         <validatorVersion>6.1.5.Final</validatorVersion>
         <vertxVersion>3.9.1</vertxVersion>
+        <droolsVersion>7.41.0.Final</droolsVersion>
         <micrometerVersion>1.4.1</micrometerVersion>
         <grpcVersion>1.28.1</grpcVersion>
         <protobufVersion>3.11.4</protobufVersion>
@@ -346,6 +347,13 @@
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-stack-depchain</artifactId>
                 <version>${vertxVersion}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-bom</artifactId>
+                <version>${droolsVersion}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
