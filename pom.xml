@@ -16,7 +16,7 @@
         <jappNetifiVersion>1.0.0</jappNetifiVersion>
         <janinoVersion>3.1.0</janinoVersion>
         <logbackVersion>1.2.3</logbackVersion>
-        <jacksonVersion>2.11.0</jacksonVersion>
+        <jacksonVersion>2.11.3</jacksonVersion>
         <jaegerVersion>1.2.0</jaegerVersion>
         <keycloakVersion>11.0.0</keycloakVersion>
         <luceneVersion>8.5.2</luceneVersion>
@@ -27,14 +27,14 @@
         <zxingVersion>3.4.0</zxingVersion>
         <guiceVersion>4.2.3</guiceVersion>
         <validatorVersion>6.1.5.Final</validatorVersion>
-        <vertxVersion>3.9.1</vertxVersion>
+        <vertxVersion>3.9.4</vertxVersion>
         <droolsVersion>7.41.0.Final</droolsVersion>
         <micrometerVersion>1.4.1</micrometerVersion>
         <grpcVersion>1.28.1</grpcVersion>
         <protobufVersion>3.11.4</protobufVersion>
         <netifiVersion>1.6.10</netifiVersion>
-        <classgraphVersion>4.8.85</classgraphVersion>
-        <caffeineVersion>2.8.4</caffeineVersion>
+        <classgraphVersion>4.8.90</classgraphVersion>
+        <caffeineVersion>2.8.6</caffeineVersion>
     </properties>
 
     <dependencyManagement>
