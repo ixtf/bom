@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jappVersion>1.6.5</jappVersion>
         <jappPersistenceVersion>1.0</jappPersistenceVersion>
-        <jappNetifiVersion>1.0.0</jappNetifiVersion>
+        <jappApiVersion>1.0.0</jappApiVersion>
         <janinoVersion>3.1.0</janinoVersion>
         <logbackVersion>1.2.3</logbackVersion>
         <jacksonVersion>2.11.3</jacksonVersion>
@@ -126,14 +126,9 @@
             </dependency>
 
             <dependency>
-                <groupId>com.github.ixtf</groupId>
-                <artifactId>micro-service-netifi</artifactId>
-                <version>${jappNetifiVersion}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.ixtf.persistence</groupId>
-                <artifactId>core</artifactId>
-                <version>${jappPersistenceVersion}</version>
+                <groupId>com.github.ixtf.api</groupId>
+                <artifactId>vertx</artifactId>
+                <version>${jappApiVersion}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.ixtf.persistence</groupId>
