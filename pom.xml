@@ -190,11 +190,6 @@
                 <artifactId>print</artifactId>
                 <version>${jappVersion}</version>
             </dependency>
-            <dependency>
-                <groupId>com.github.ixtf.vertx</groupId>
-                <artifactId>jax-rs</artifactId>
-                <version>1.0</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.codehaus.janino</groupId>
