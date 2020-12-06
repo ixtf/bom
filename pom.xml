@@ -26,7 +26,7 @@
         <reactorVersion>2020.0.1</reactorVersion>
         <zxingVersion>3.4.0</zxingVersion>
         <guiceVersion>4.2.3</guiceVersion>
-        <validatorVersion>6.1.5.Final</validatorVersion>
+        <validatorVersion>6.1.6.Final</validatorVersion>
         <vertxVersion>3.9.4</vertxVersion>
         <droolsVersion>7.41.0.Final</droolsVersion>
         <micrometerVersion>1.4.1</micrometerVersion>
@@ -106,8 +106,8 @@
             </dependency>
             <dependency>
                 <groupId>org.glassfish</groupId>
-                <artifactId>javax.el</artifactId>
-                <version>3.0.1-b11</version>
+                <artifactId>jakarta.el</artifactId>
+                <version>4.0.0</version>
             </dependency>
             <dependency>
                 <groupId>cglib</groupId>
